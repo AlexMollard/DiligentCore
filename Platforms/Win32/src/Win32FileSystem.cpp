@@ -73,6 +73,7 @@ std::string WindowsFileSystem::GetLocalAppDataDirectory(const char* AppName, boo
 #include <Shlwapi.h>
 #pragma comment(lib, "Shlwapi.lib")
 #include <shlobj.h>
+#include <commdlg.h>
 
 #if !(defined(__MINGW64__) || defined(__MINGW32__))
 #    include <atlbase.h>
